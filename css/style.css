@@ -1,0 +1,104 @@
+@charset "utf-8";
+button{
+    border: none;
+    background:none;
+}
+/* Padding*/
+.pd-2{
+    padding: 2rem;
+}
+/* 1 ヘッダー */
+header{
+    background: url(../images/mainbackgroun.png) no-repeat top center;
+    background-size: cover;
+}
+.main-text{
+    padding: 3rem 1rem 1rem 1rem;
+}
+
+/* 2 3つの機能*/
+#function{
+    background-color: #f9d8df;
+}
+.sub-title h2{
+    font-size: 40px;
+    font-family: 'Times New Roman',serif, cursive, monospace;
+    text-align: center;
+    padding: 3rem 0;
+}
+.sub-title h3 {
+    font-size: 25px;
+    font-family: 'Times New Roman',serif, cursive, monospace;
+    text-align: center;
+}
+.three-functions{
+    background: white;
+    text-align: center;
+}
+.three-functions h3{
+    font-size: 25px;
+    font-family: 'Times New Roman',serif, cursive, monospace;
+    text-align: center;
+}
+.product-name{
+    padding: 3rem 0 3rem 6rem;
+}
+.three-functions-border{
+    position: relative;
+    margin-top: 0;
+    padding: 0;
+    border: 1px solid #F7E7F0;  
+}
+.three-functions-title{
+    display: inline-block;
+    color:#E64077;
+    font-size: 60px;
+    transform: translateY(-50%) translateX(1em);
+    background-color: white;
+    font-family: 'Times New Roman',serif, cursive, monospace;
+}
+.three-functions-content {
+    margin-top: 1rem;
+}
+.number-pinkcircle{
+    text-align: right;
+    padding-right: 0.5rem;
+}
+.functions-text{
+    padding-top: 0.5rem;
+}
+.functions-text h2{
+    font-size: 36px;
+    font-family: 'Times New Roman',serif, cursive, monospace;
+    color: #E64077;
+    text-align: left;
+    padding: 0 0 0.5rem 0;
+}
+.functions-text p{
+    font-size: 17px;
+    text-align: left;
+}
+.three-points-imgs{
+    padding: 2rem 0 0 0;
+}
+.products-details{
+    padding: 2rem 0;
+    text-align: center;
+    align-items: center;
+}
+.products-details h4{
+    font-size: 0.8rem;
+}
+.products-details p{
+    font-size: 0.8rem;
+}
+.products-details span{
+    font-size: 1.5rem;
+    font-style: bold;
+}
+.products-details button{
+    width: 90%;
+    padding: 0;
+    margin: 0;
+
+}
