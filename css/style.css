@@ -3,45 +3,72 @@ button{
     border: none;
     background:none;
 }
+.sp{
+    display: none;
+}
 /* Padding*/
+.pd-05{
+    padding: 0.5rem;
+}
+.pd-1{
+    padding: 1rem;
+}
 .pd-2{
     padding: 2rem;
 }
+.pd-3{
+    padding: 3rem;
+}
+.pd-4{
+    padding: 4rem;
+}
 /* 1 ヘッダー */
 header{
-    background: url(../images/mainbackgroun.png) no-repeat top center;
+    background: url(../images/mainbackground1.png) no-repeat top center;
     background-size: cover;
 }
 .main-text{
-    padding: 3rem 1rem 1rem 1rem;
+    padding: 4rem 0 1rem 1rem;
 }
+.main-img{
+    /* width: 30%; */
+    /* height: auto; */
+    padding: 2.5rem 0 0 0;
 
+}
 /* 2 3つの機能*/
 #function{
     background-color: #f9d8df;
+    padding-bottom: 4rem;
+    
+}
+.main-text p{
+    margin: 0;
+    padding: 0;
+    font-size: 2rem;
 }
 .sub-title h2{
-    font-size: 40px;
+    font-size: 2rem;
     font-family: 'Times New Roman',serif, cursive, monospace;
     text-align: center;
-    padding: 3rem 0;
+    padding: 3rem 0 1.5rem 0;
 }
 .sub-title h3 {
-    font-size: 25px;
+    font-size: 1rem;
     font-family: 'Times New Roman',serif, cursive, monospace;
     text-align: center;
+    padding-bottom: 1rem;
 }
 .three-functions{
     background: white;
     text-align: center;
 }
-.three-functions h3{
-    font-size: 25px;
+.product-name{
+    padding: 3rem 0 3rem 0rem;
+    font-size: 1.5rem;
     font-family: 'Times New Roman',serif, cursive, monospace;
     text-align: center;
-}
-.product-name{
-    padding: 3rem 0 3rem 6rem;
+    align-items: center;
 }
 .three-functions-border{
     position: relative;
@@ -56,6 +83,8 @@ header{
     transform: translateY(-50%) translateX(1em);
     background-color: white;
     font-family: 'Times New Roman',serif, cursive, monospace;
+    text-align: center;
+    align-items: center;
 }
 .three-functions-content {
     margin-top: 1rem;
@@ -86,12 +115,27 @@ header{
     text-align: center;
     align-items: center;
 }
-.products-details h4{
+.products-shampoo{
+    text-align: right;
+}
+.products-shampoo h4{
+    color: #E64077;
     font-size: 0.8rem;
 }
-.products-details p{
+.products-shampoo p{
     font-size: 0.8rem;
 }
+.products-conditioner{
+    text-align: left;
+}
+.products-conditioner h4{
+    color: #E64077;
+    font-size: 0.8rem;
+}
+.products-conditioner p{
+    font-size: 0.8rem;
+}
+
 .products-details span{
     font-size: 1.5rem;
     font-style: bold;
@@ -102,3 +146,183 @@ header{
     margin: 0;
 
 }
+
+/* 3-ヘアダメージ */
+#damging-hair{
+    background-color: white;
+    padding: 4rem 0; 
+}
+.haircareset{
+border: 1px solid #AFA1D0;  
+padding: 0;
+width: 65%;
+}
+
+.haircareset h3{
+    text-align: center;
+    background-color:#AFA1D0 ;
+    padding: 1rem 0;
+    margin: 0;
+    color: white;
+    font-family: monospace;
+    font-size: 1.5rem;
+}
+
+.haircareset-img{
+    text-align: center;
+    padding: 2rem 0 1rem 2rem;
+
+}
+.haircareset-text{
+    padding: 2rem 0 1rem 0;
+    text-align: left;
+    align-items: center;
+}
+.haircareset-text h4{
+    font-size: 1rem;
+}
+.haircareset-text{
+    font-size: 0.8rem;
+}
+.haircareset-text span{
+    font-size: 1.5rem;
+    font-style: bold;
+}
+.haircareset-text button{
+   padding: 0;
+}
+
+.damaginghair-content{
+    padding: 4rem 0 0 4rem;
+}
+.damaginghair-content p{
+    text-align: center;
+    color: #924CA4;
+    font-size: 1.2rem;
+    padding-bottom: 0.5rem;
+    margin: 0; 
+}
+.damaginghair-content h2{
+    text-align: center;
+    color: #924CA4;
+}
+.damaginghair-content span{
+    border-bottom: solid 1px #924CA4;
+}
+.damaginghair-text p{
+    color: black;
+    font-size: 0.9rem;
+    text-align: left;
+}
+.hairtrouble-content p{
+    color:#796EB0;
+    font-size: 1.5rem;
+    text-align: left;
+    padding: 0.6rem 0 0.5rem 0;
+}
+.hairtrouble{
+    background-color: #F9F5F6;
+    padding: 1rem 0;
+}
+.hairtrouble-h4{
+    text-align: center;
+    color: #817D7D;
+    padding-top: 0.5rem;
+}
+.hairtrouble-checkbox{
+    text-align: right;
+}
+
+
+@media screen and (max-width: 768px){
+    .pc{
+        display: none;
+    }
+    .sp{
+        display: block;
+    }
+    /* ヘッダー */
+    .main-text{
+        padding: 5rem 0 0 2rem;
+        margin:0;
+    }
+    .main-img{
+        padding: 0 2rem 2rem 2rem;
+        margin:0;
+    }
+    /* ３つのポイント */
+    .three-functions-title{
+        display: inline-block;
+        color:#E64077;
+        font-size: 40px;
+        transform: translateY(-50%) translateX(1em);
+        background-color: white;
+        font-family: 'Times New Roman',serif, cursive, monospace;
+        text-align: center;
+        align-items: center;
+    }
+    .img-points{
+        padding-top: 1rem;
+    }
+    .number-pinkcircle{
+        text-align: center;
+    }
+    .products-shampoo, .products-conditioner{
+        text-align: center;
+    }
+    .products-img{
+        padding: 1rem 0;
+    }
+    .products-details p{
+        margin-bottom: 0.5rem ;
+    }
+    /* ヘアケアセット */
+    .haircareset h3{
+        font-size: 0.9rem;
+    }
+    .haircareset-img{
+        padding: 1rem 0 00;
+    }
+    .haircareset-text h4{
+        font-size: 0.8rem;
+        text-align: center;
+    }
+    .haircareset-text{
+        font-size: 0.6rem;
+        text-align: center;
+    }
+    .haircareset-text span{
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    .haircareset-text button{
+        width: 80%;
+        text-align: center;
+    }
+    /* ダメージヘア */
+    .damaginghair-content{
+        padding: 3rem 0 0 0;
+    }
+    .damaginghair-text p{
+        padding-top: 1rem;
+    }
+    .damaginghair-content h2{
+        font-size: 2rem;
+
+    }
+    .hairtrouble{
+        padding: 1.5rem 0;
+    }
+    .hairtrouble-checkbox{
+        width: 35%;
+    }
+    .hairtrouble-content{
+        width: 65%;
+    }
+    .hairtrouble-content p{
+        padding-top: 0.5rem;
+    }
+
+
+
+    }
