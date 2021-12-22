@@ -22,12 +22,18 @@ button{
 .pd-4{
     padding: 4rem;
 }
+.pdtd-2{
+    padding:2rem 0;
+}
 /* Margin */
 .mg-1{ 
     margin: 1rem;
 }
 .mgrl-1{
     margin: 0 1rem; 
+}
+.mgtd-2{
+    margin: 2rem 0;
 }
 /* 1 ヘッダー */
 header{
@@ -163,6 +169,7 @@ header{
 border: 1px solid #AFA1D0;  
 padding: 0;
 width: 65%;
+margin-bottom: 5rem;
 }
 
 .haircareset h3{
@@ -184,12 +191,10 @@ width: 65%;
     padding: 2rem 0 1rem 0;
     text-align: left;
     align-items: center;
+    font-size: 0.8rem;
 }
 .haircareset-text h4{
     font-size: 1rem;
-}
-.haircareset-text{
-    font-size: 0.8rem;
 }
 .haircareset-text span{
     font-size: 1.5rem;
@@ -200,7 +205,7 @@ width: 65%;
 }
 
 .damaginghair-content{
-    padding: 4rem 0 0 4rem;
+    padding: 0 0 0 4rem;
 }
 .damaginghair-content p{
     text-align: center;
@@ -395,6 +400,73 @@ width: 65%;
     text-align: start;
     align-items: center;
 }
+/* 6-Lineup */
+.lineup-title h2{
+    margin: 3rem 0 0 0;
+    color: #7266C4;
+    text-align: center;
+    font-family: "Ryo Text PlusN", serif;
+    font-size: 3rem;
+}
+.lineup-title p{
+    padding: 1rem 0;
+    text-align: center;
+    font-size: 1rem;
+
+}
+.lineup-products{
+    padding: 2rem 0 3rem 0;
+    margin: 0 10rem;
+}
+.lineup-products h4{
+    text-align: right;
+}
+.lineup-product-subtitle{
+    color: #924CA4;
+    font-size: 1.2rem;
+    padding: 0;
+    margin: 0;
+    font-family: "Hiragino Mincho ProN", serif;
+}
+
+.lineup-product-title{
+    color: #924CA4;
+    font-size: 1.7rem;
+    border-bottom: 1px solid #AFA1D0;  
+    text-align: left;
+    font-family: "Hiragino Mincho ProN", serif;
+    padding-top: 0.5rem;
+}
+.lineup-products-name{
+    font-size: 0.8rem;
+    padding: 1rem 0 0 0;
+}
+.lineup-products-name span{
+    font-size: 1.5rem;
+    font-style: bold;
+}
+.bottlesset-img h4{
+    width: 80%;
+    margin: 1rem;
+}
+.bottolesset-content{
+    margin: 0 1rem;
+}
+.bottlesset-text h4{
+    padding: 2rem 0 1rem 0;
+    text-align: left;
+    align-items: center;
+    font-size: 1rem;
+    
+}
+.bottlesset-text p{
+    font-size: 0.8rem;
+    
+}
+.bottlesset-text span{
+    font-size: 1.5rem;
+    font-style: bold;
+}
 
 
 
@@ -445,7 +517,7 @@ width: 65%;
         font-size: 0.9rem;
     }
     .haircareset-img{
-        padding: 1rem 0 00;
+        padding: 1rem 0 0 0;
     }
     .haircareset-text h4{
         font-size: 0.8rem;
@@ -582,6 +654,57 @@ width: 65%;
         padding: 0 0 2rem 0;
         margin: 0 1rem;
     }
+    .lineup-title p{
+        font-size: 0.8rem;
+        margin: 0 4rem;
+    }
+    .lineup-products{
+        margin: 0;
+    }
+    .lineup-products h4{
+        text-align: center;
+    }
+    .lineup-product-subtitle, .lineup-product-title{
+        margin: 0 2rem;
+    }
+    .lineup-product-subtitle{
+        padding-top: 1rem;;
+    }
+    .lineup-products-name{
+        margin: 0 2rem;
+        padding: 1rem 0 2rem 0;
+    }
+    .bottlesset-img h4{
+        margin: 0;
+        text-align: center;
+        width: 100%;
+        padding: 1rem 0;
+    }
+    .bottolesset-content{
+        margin: 0;
+    }
+    .bottlesset-text {
+        padding-bottom: 1.5rem;
+    }
+    .bottlesset-text h4{
+        padding: 0.5rem 0 0.5rem 0;
+        text-align: center;
+        font-size: 1rem;
+        
+    }
+    .bottlesset-text p{
+        font-size: 0.8rem;
+        text-align: center;
+        
+    }
+    .bottlesset-text span{
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    .bottlesset-text button{
+        text-align: center;
+    }
+
     
 
 
